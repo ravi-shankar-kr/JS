@@ -85,6 +85,33 @@ console.log("5" === 5);
 
 
 
+// Q14. for loop se 1 se 10 tak numbers print karo.
+for(let i=1; i<=10; i++){
+    console.log(i);
+    
+}
+
+
+// Q15. while loop se 10 se 1 tak reverse print karo.
+let i=10;
+while (i >= 1) {
+    console.log(i);
+    i--;
+    
+}
+
+
+// Q16. do-while loop se ek number kam se kam 1 baar print karao.
+let j = 2;
+do {
+    console.log(i);
+    j++
+    
+} while (j <= 3);
+
+
+
+
 
 
 
