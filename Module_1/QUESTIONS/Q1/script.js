@@ -237,10 +237,100 @@ switch(day){
 // }
 
 
+// Q23.Ek function banao jo 2 numbers le aur unka sum return kare.
+
+// let e = Number(prompt("Enter first num"));
+// let f = Number(prompt("Enter second num"));
+
+
+// function  addtwo() {
+//     let addtwonum = e+f;
+//     return console.log(addtwonum);
+
+    
+    
+// }
+
+//  addtwo();
 
 
 
+// Q24.Ek function banao jo number le aur bataye even hai ya odd.
 
+// let g = Number(prompt("Enter a Number"))
+
+// function CheckEvenOdd(){
+//     if (g%2 == 0) {
+//         console.log(g + " your number is Even");
+        
+//     } else {
+//         console.log(g + " your number is odd");
+        
+//     }
+// }
+
+// CheckEvenOdd();
+
+
+
+ 
+
+// Q25.Ek function banao jo number le aur bataye positive, negative ya zero.
+// let h = Number(prompt("Enter a Number"))
+
+// function review(){
+//      if (h>0) {
+//         console.log("your number is positive");
+        
+//      }if (h<0) {
+//         console.log("your number is negative");
+//      } if(h== 0) {
+//         console.log("your number is zero");
+        
+//      }
+// }
+
+// review();
+
+
+
+// Q26.Function expression use karke square of a number nikalo.
+let v = 9
+function square(){
+    sq = v*v;
+    console.log("square of " +v +" is "+ sq);
+    
+}
+
+square();
+
+// Q27.for loop use karke 1 se 100 tak:
+
+// 3 ke multiple → "Fizz"
+
+// 5 ke multiple → "Buzz"
+
+// dono ke → "FizzBuzz"
+
+ 
+
+function  num(d) {
+    if ( d%3 == 0 && d%5 == 0) {
+        console.log("FizzBuzz");
+        
+    }if (d%3 == 0) {
+        console.log("Fizz");
+        
+    }if ( d%5 == 0 ) {
+        console.log(" Buzz");
+        
+    } else {
+        console.log("check again");
+        
+    }
+}
+
+num(30);
 
 
 
