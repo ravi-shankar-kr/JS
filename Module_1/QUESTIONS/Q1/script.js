@@ -109,6 +109,132 @@ do {
     
 } while (j <= 3);
 
+// Q17.// for loop use karke 1 se 20 tak sirf even numbers print karo.
+
+let k = 2;
+for(k=2; k<=20; k++){
+    if (k%2 == 0 ) {
+        console.log(k);
+        
+    }
+}
+
+
+// Q18.for loop use karke kisi bhi number ka table print karo
+// (Example: 5 ka table).
+
+let l = 5;
+for(l=5; l<=50; l++){
+    if (l%5 == 0 ) {
+        console.log(l);
+        
+    }
+}
+
+
+// Q19.for loop use karke 1 se 50 tak numbers print karo,
+// lekin 3 ke multiple ko skip karo (continue use karo).
+
+let m = 1;
+for(m=1; m<=50; m++){
+    if (m%3 == 0 ) {
+         continue;
+        
+    }else{
+        console.log(m);
+        
+    }
+}
+
+// Q20.for loop me jab number 25 aaye, loop ko wahi stop kar do (break use karo).
+
+ 
+for(let n=1; n<=30; n++){
+    if (n===25) {
+        break;
+    }  
+        console.log(n);
+        
+}
+
+
+// Q21.switch use karke day number (1–7) ko day name me convert karo.
+let day =   3;
+switch(day){
+    case 1:
+    console.log("monday");
+    break;
+    
+    case 2:
+    console.log("tuesday");
+    break;
+    
+    case 3:
+    console.log("wednesday");
+    break;
+    
+    case 4:
+    console.log("thursday");
+    break;
+    
+    case 5:
+    console.log("friday");
+    break;
+    
+    case 6:
+    console.log("Saturday");
+    break;
+    
+    case 7:
+    console.log("Sunday");
+    break;
+
+    default:
+        console.log("invalid date");
+        
+    
+
+}
+
+ 
+
+// Q22.switch use karke simple calculator banao
+// (+, -, *, /).
+
+// let num1 = Number(prompt("Enter first number"));
+// let num2 = Number(prompt("Enter second number"));
+// let operator = prompt("Enter operator (+, -, *, /)");
+
+// let result;
+
+// switch (operator) {
+//   case "+":
+//     result = num1 + num2;
+//     console.log("Result:", result);
+//     break;
+
+//   case "-":
+//     result = num1 - num2;
+//     console.log("Result:", result);
+//     break;
+
+//   case "*":
+//     result = num1 * num2;
+//     console.log("Result:", result);
+//     break;
+
+//   case "/":
+//     if (num2 === 0) {
+//       console.log("Error: Division by zero not allowed");
+//     } else {
+//       result = num1 / num2;
+//       console.log("Result:", result);
+//     }
+//     break;
+
+//   default:
+//     console.log("Invalid operator");
+// }
 
 
 
