@@ -297,37 +297,65 @@ while (Table <= 10) {
 // 1️⃣3️⃣ break
 
 // 1 se 10 tak loop chalao, jab 5 aaye to break.
-
-// Array me jab "stop" aaye to loop tod do.
-
-// Table me jab 6 aaye to stop.
-
-// 1️⃣4️⃣ continue
-
-// 1 se 10 me se 5 skip karo.
 for (let  i = 1;  i <=10;  i++) {
     if ( i == 5) {
-        continue;
+        break;
     }
     console.log(i);
     
 }
 
-// Sirf even print karo, odd skip karo.
-for (let  i = 1;  i <=10;  i++) {
-    if ( i%2 == 1) {
-        continue;
-    }
-    console.log(i);
-    
-}
 
-// Array me "skip" word ko chhod ke baaki print karo.
-let arr = ["Ravi", "Skip", "Shivam"]
-for(word of arr){
-    if ( word == "Skip") {
-        continue;
+
+// Array me jab "stop" aaye to loop tod do.
+let array = ["Ravi", "Skip","stop", "Shivam"]
+for(word of array){
+    if ( word == "stop") {
+        break;
     }
     console.log(word);
     
 }
+
+// Table me jab 6 aaye to stop.
+let Tabl = 1;
+while (Tabl <= 10) {
+    let tab = 2 * Tabl;
+    console.log(tab);
+    if (tab  == 6) {
+        break;
+    }
+    Tabl++;
+    
+}
+
+
+// 1️⃣4️⃣ continue
+
+// 1 se 10 me se 5 skip karo.
+// for (let  i = 1;  i <=10;  i++) {
+//     if ( i == 5) {
+//         continue;
+//     }
+//     console.log(i);
+    
+// }
+
+// Sirf even print karo, odd skip karo.
+// for (let  i = 1;  i <=10;  i++) {
+//     if ( i%2 == 1) {
+//         continue;
+//     }
+//     console.log(i);
+    
+// }
+
+// Array me "skip" word ko chhod ke baaki print karo.
+// let arr = ["Ravi", "Skip", "Shivam"]
+// for(word of arr){
+//     if ( word == "Skip") {
+//         continue;
+//     }
+//     console.log(word);
+    
+// }
