@@ -66,52 +66,129 @@ if ( Password == "admin123") {
 }
 
 
-
-// 3️⃣ if–else if–else
-
-// Marks lo:
-
-// = 90 → A
-
-// = 70 → B
-
-// = 40 → C
-
-// else → Fail
-
-// Ek number lo:
-
-// 0 → Positive
-
-// < 0 → Negative
-
-// = 0 → Zero
-
-// Time (0–23) ke base pe:
-
-// 5–11 → Morning
-
-// 12–17 → Afternoon
-
-// 18–22 → Evening
-
-// else → Night
-
 // 4️⃣ Ternary Operator
 
 // Age >= 18 ? "Adult" : "Minor"
+console.log(age>=18? "adult" : "minor");
+
 
 // Number > 0 ? "Positive" : "Not Positive"
+console.log(num>=18? "positive" : "negative");
+
 
 // Marks >= 40 ? "Pass" : "Fail"
+console.log(marks>=18? "pass" : "fail");
+
+
+
 
 // 5️⃣ switch
-
 // Number (1–7) → Day name print karo.
+let number = 4;
+switch ( 7) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+
+    default:
+        console.log("invalid days");
+        break;
+}
+
+
 
 // Operator (+,-,*,/) → Calculator banao.
+let a = 5;
+let b = 4;
+ 
+switch ( "%") {
+    case "+":
+        console.log(a+b);
+        break;
+    case "-":
+        console.log(a-b);
+        break;
+    case "*":
+        console.log(a*b);
+        break;
+    case "/":
+        console.log(a/b);
+        break;
+    case "%":
+        console.log(a%b);
+        break;
+    
+    default:
+        console.log("invalid operator");
+        break;
+}
+
+
+
 
 // Month number (1–12) → Month name print karo.
+switch ( 11) {
+    case 1:
+        console.log("January");
+        break;
+    case 2:
+        console.log("febraury");
+        break;
+    case 3:
+        console.log("march");
+        break;
+    case 4:
+        console.log("april");
+        break;
+    case 5:
+        console.log("may");
+        break;
+    case 6:
+        console.log("june");
+        break;
+    case 7:
+        console.log("july");
+        break;
+    case 8:
+        console.log("august");
+        break;
+    case 9:
+        console.log("september");
+        break;
+    case 10:
+        console.log("october");
+        break;
+    case 11:
+        console.log("november");
+        break;
+    case 12:
+        console.log("december");
+        break;
+
+    default:
+        console.log("invalid days");
+        break;
+}
+
+
 
 // 6️⃣ for Loop
 
