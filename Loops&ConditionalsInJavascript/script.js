@@ -300,13 +300,33 @@ do {
 
 
 
+
 // 9️⃣ forEach
 
 // Array ke sab numbers print karo.
+// let arr = ["hello", "skip", "world", "skip", "JS"];
+// arr.forEach((val) => {
+//     console.log(val);
+    
+// });
+
+
+
 
 // Array ke har element ko 2 se multiply karo.
+// let array = [ 3,  6,  7, 2,  5];
+// array.forEach((val) => {
+//     console.log(val * 2);
+    
+// })
 
 // Names ke array me se sirf "Ravi" find karo.
+// let arr = ["hello", "Ravi", "world", "skip", "JS"];
+// arr.forEach((val) => {
+//     if (val == "Ravi") {
+//         console.log(val);
+//     }
+// });
 
 // 🔟 for...in
 
