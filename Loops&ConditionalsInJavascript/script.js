@@ -254,13 +254,51 @@ while (Table <= 10) {
 
 
 
+
+
 // 8️⃣ do...while
 
 // 1 se 10 tak print karo.
+let n = 1;
+do {
+    console.log(n);
+    n++
+    
+} while (n <= 10);
+
+
+
+
 
 // Password jab tak correct na ho tab tak poochte raho.
+// let pass = "Ravi@"
+// do {
+//     let password = prompt("enter password")
+//     if (pass == password) {
+//         console.log(password);
+        
+//         break;
+//     }
+// } while (true);
+
+
+
+
 
 // Number lo jab tak negative na mile.
+
+// do {
+//     let Num =Number( prompt("enter Num"))
+//     if (Num < 0) {
+//         console.log(Num);
+        
+//         break;
+//     }
+// } while (true);
+
+
+
+
 
 // 9️⃣ forEach
 
@@ -294,40 +332,44 @@ while (Table <= 10) {
 
 // Factorial nikaalo.
 
+
+
+
+
 // 1️⃣3️⃣ break
 
 // 1 se 10 tak loop chalao, jab 5 aaye to break.
-for (let  i = 1;  i <=10;  i++) {
-    if ( i == 5) {
-        break;
-    }
-    console.log(i);
+// for (let  i = 1;  i <=10;  i++) {
+//     if ( i == 5) {
+//         break;
+//     }
+//     console.log(i);
     
-}
+// }
 
 
 
 // Array me jab "stop" aaye to loop tod do.
-let array = ["Ravi", "Skip","stop", "Shivam"]
-for(word of array){
-    if ( word == "stop") {
-        break;
-    }
-    console.log(word);
+// let array = ["Ravi", "Skip","stop", "Shivam"]
+// for(word of array){
+//     if ( word == "stop") {
+//         break;
+//     }
+//     console.log(word);
     
-}
+// }
 
 // Table me jab 6 aaye to stop.
-let Tabl = 1;
-while (Tabl <= 10) {
-    let tab = 2 * Tabl;
-    console.log(tab);
-    if (tab  == 6) {
-        break;
-    }
-    Tabl++;
+// let Tabl = 1;
+// while (Tabl <= 10) {
+//     let tab = 2 * Tabl;
+//     console.log(tab);
+//     if (tab  == 6) {
+//         break;
+//     }
+//     Tabl++;
     
-}
+// }
 
 
 // 1️⃣4️⃣ continue
