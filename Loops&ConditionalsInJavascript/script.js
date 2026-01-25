@@ -190,13 +190,32 @@ switch ( 11) {
 
 
 
-// 6️⃣ for Loop
 
+
+
+// 6️⃣ for Loop
 // 1 se 10 tak print karo.
+for (let  i = 1;  i <=10;  i++) {
+    console.log(i);
+    
+}
 
 // 10 se 1 tak reverse print karo.
+for (let  i = 10;  i >=1;  i--) {
+    console.log(i);
+    
+}
 
 // 1 se 50 tak ke even numbers print karo.
+for (let  i = 1;  i <=50;  i++) {
+    if ( i%2 == 0) {
+        console.log(i);
+        
+    }
+    
+}
+
+
 
 // 7️⃣ while Loop
 
