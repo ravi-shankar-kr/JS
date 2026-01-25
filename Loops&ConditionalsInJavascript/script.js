@@ -305,7 +305,29 @@ while (Table <= 10) {
 // 1️⃣4️⃣ continue
 
 // 1 se 10 me se 5 skip karo.
+for (let  i = 1;  i <=10;  i++) {
+    if ( i == 5) {
+        continue;
+    }
+    console.log(i);
+    
+}
 
 // Sirf even print karo, odd skip karo.
+for (let  i = 1;  i <=10;  i++) {
+    if ( i%2 == 1) {
+        continue;
+    }
+    console.log(i);
+    
+}
 
 // Array me "skip" word ko chhod ke baaki print karo.
+let arr = ["Ravi", "Skip", "Shivam"]
+for(word of arr){
+    if ( word == "Skip") {
+        continue;
+    }
+    console.log(word);
+    
+}
