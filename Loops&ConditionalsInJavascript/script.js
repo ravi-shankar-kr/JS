@@ -206,6 +206,7 @@ for (let  i = 10;  i >=1;  i--) {
     
 }
 
+
 // 1 se 50 tak ke even numbers print karo.
 for (let  i = 1;  i <=50;  i++) {
     if ( i%2 == 0) {
@@ -220,10 +221,38 @@ for (let  i = 1;  i <=50;  i++) {
 // 7️⃣ while Loop
 
 // 1 se 5 tak print karo.
+let j = 1;
+while (j <= 5) {
+    console.log(j);
+    j++;
+    
+}
+
+
 
 // User se number lo jab tak wo 0 na de.
 
+// while (true) {
+//     let num = Number(prompt("Enter a num: "))
+//     if (num === 0) {
+//         console.log("you win, program stopped");
+//         break;
+//     }
+//     console.log("enter again", num);
+    
+// }
+
+
+
 // Table of 5 print karo.
+let Table = 1;
+while (Table <= 10) {
+    console.log(Table * 5 );
+    Table++;
+    
+}
+
+
 
 // 8️⃣ do...while
 
